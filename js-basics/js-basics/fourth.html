@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{color: green;}
+    </style>
+</head>
+<body>
+    <H1 class="score"></H1>
+    <script>
+        var score=prompt("Enter a Score:"); 
+        
+        switch(score){
+            case "80":
+            case "81":
+            case "82":
+            case "83":
+            case "84":
+            case "85":
+            case "86":
+            case "87":
+                            document.getElementsByClassName("score")[0].innerHTML="A Grade Student";
+                            break;
+            case "70":
+            case "71":
+            case "72":
+                             document.getElementsByClassName("score")[0].innerHTML="B Grade Student";
+                            break;
+        }
+
+            
+
+
+        
+    </script>
+    
+</body>
+</html>

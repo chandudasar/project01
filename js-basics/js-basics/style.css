@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+div.container {
+    width: 1200px;
+    height: 700px;
+    margin-top: 20px;
+    margin-left: 30px;
+    
+    border: 2px solid blue;
+    border-color: blue;
+}
+.sidebar{
+    width: 150px;
+    height:700px ;
+    float: left;
+    border: 2px solid red;
+}
+.content{
+    margin-left: 150px;
+    padding-left: 150px;    
+    width: 900px;
+    height:580px ;
+    border: 2px solid black;
+
+}
